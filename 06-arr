@@ -1,0 +1,9 @@
+#!/bin/bash 
+
+Movies=("RRR" "DJ-till2" "Murari") 
+
+echo "First movies is: : ${Movies[0]}"
+echo "second movies is: : ${Movies[0]}"
+echo "third  movies is: : ${Movies[0]}" 
+``` 
+echo "Movies are: : ${@Movies}"
