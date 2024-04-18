@@ -2,11 +2,11 @@
 
 echo "Enter your username:" 
 
-read  USERNAME #username is variable here 
+read   -s USERNAME #username is variable here 
 
 echo "Enter your password:" 
 
-read PASSWORD  
+read -s PASSWORD  
 
 echo "user name is $USERNAME , password is $PASSWORD " 
 
