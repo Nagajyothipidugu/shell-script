@@ -1,3 +1,10 @@
 #!/bin/bash 
+USERID=$(id -u)
 
+if [ $USER -ne 0]
+then 
+  echo "Please run this script with root access" 
+else 
+  echo "You are a super user."  
+  
 dnf install sql -y 
