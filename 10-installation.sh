@@ -6,5 +6,5 @@ then
   echo "Please run this script with root access" 
 else 
   echo "You are a super user."  
-  
+fi  
 dnf install sql -y 
